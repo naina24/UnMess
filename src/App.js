@@ -4,8 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Feedback from './components/pages/Feedback';
-import fire from './Fire'
-
+import fire from './Fire';
+//import MessMenu from './MessMenu';
+import Student from './components/Student/Student';
 
 
 function App() {
@@ -24,6 +25,8 @@ const [username ,setUsername]=useState('');
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/Feedback' component={Feedback} />
+          {/*<Route path='MessMenu' component={MessMenu}*/}
+          <Route path='/Student' component={Student}/>
         </Switch>
       </Router>
     </>

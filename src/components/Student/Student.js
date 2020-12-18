@@ -11,17 +11,17 @@ function Student(){
                 <div className="content">
                     <div className="items">
                         <div className="items-name">Breakfast</div>
-                        <a href="#breakfast">Menu</a>
+                        <a href="#breakfast" className="menu">Menu</a>
                     </div>
 
                     <div className="items">
                         <div className="items-name">Lunch</div>
-                        <a href="#lunch">Menu</a>
+                        <a href="#lunch" className="menu">Menu</a>
                     </div>
 
                     <div className="items">
                         <div className="items-name">Dinner</div>
-                        <a href="#dinner">Menu</a>
+                        <a href="#dinner" className="menu">Menu</a>
                     </div>
                 </div>
             </main>
