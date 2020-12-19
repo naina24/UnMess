@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 h1 {
@@ -26,6 +26,7 @@ h1 {
 }
 
 .cards__item {
+  background: #f8dd30; 
   display: flex;
   flex: 1;
   margin: 0 1rem;
@@ -90,12 +91,22 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 20px 10px 10px;
+}
+
+.cards__item__info1 {
+  padding: 5px 15px 10px;
 }
 
 .cards__item__text {
   color: #252e48;
   font-size: 18px;
+  line-height: 24px;
+}
+
+.cards__item__text1 {
+  color: #243463;
+  font-size: 14px;
   line-height: 24px;
 }
 

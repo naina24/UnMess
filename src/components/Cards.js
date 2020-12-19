@@ -11,33 +11,38 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='https://i.ibb.co/YDpXB6k/opt-aboutcom-coeus-resources-content-migration-mnn-images-2018-12-Dislike-Cooking-Trend-42651ffd1865.jpg'
-              text='Ram Kumar Upadhyay'
+              text='Ram Upadhyay'
+              text1='Email: abc@iiita.ac.in'
               label='Head'
-              path='/services'
+              path='/'
             />
             <CardItem
                src='https://i.ibb.co/YDpXB6k/opt-aboutcom-coeus-resources-content-migration-mnn-images-2018-12-Dislike-Cooking-Trend-42651ffd1865.jpg'
               text='Shyam Verma'
+              text1='Email: abc@iiita.ac.in'
               label='Cook'
-              path='/services'
+              path='/'
             />
              <CardItem
               src='https://i.ibb.co/YDpXB6k/opt-aboutcom-coeus-resources-content-migration-mnn-images-2018-12-Dislike-Cooking-Trend-42651ffd1865.jpg'
-              text='Shubham Prakash'
+              text='Shubh Prakash'
+              text1='Email: abc@iiita.ac.in'
               label='Cook'
-              path='/services'
+              path='/'
             />
              <CardItem
               src='https://i.ibb.co/YDpXB6k/opt-aboutcom-coeus-resources-content-migration-mnn-images-2018-12-Dislike-Cooking-Trend-42651ffd1865.jpg'
               text='Gagan Baranwal'
+              text1='Email: abc@iiita.ac.in'
               label='Cook'
-              path='/services'
+              path='/'
             />
              <CardItem
               src='https://i.ibb.co/YDpXB6k/opt-aboutcom-coeus-resources-content-migration-mnn-images-2018-12-Dislike-Cooking-Trend-42651ffd1865.jpg'
-              text='Shashank Shukla'
+              text='Ayush Shukla'
+              text1='Email: abc@iiita.ac.in'
               label='Cook'
-              path='/services'
+              path='/'
             />
           </ul>
         </div>
