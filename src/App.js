@@ -4,7 +4,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Feedback from './components/pages/Feedback';
-import fire from './Fire'
+import fire from './Fire';
 
 
 
