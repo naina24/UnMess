@@ -9,10 +9,10 @@ function toggleForm  () {
   containers.classList.toggle('active');
 };
 
-var pass='';
+
 const HeroSection=(props)=>
  {
-  const{
+  const{ 
     email,
     setEmail,
     password,
@@ -24,31 +24,14 @@ const HeroSection=(props)=>
     emailError, 
     passwordError,
     username,
+    member,
+    setMember,
     setUsername,
   } =props;
   
   
   return (
     <div className='hero-container'>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-          id='2'
-        >
-         Mess Staff
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-          id='1'
-          onClick={''}
-        >
-         Student <i className='far fa-play-circle' />
-        </Button>
-      </div>
       <section className="sectiona">
     <div class="containera">
       <div class="user signinBx">
@@ -98,13 +81,11 @@ const HeroSection=(props)=>
                onChange={(e)=>setPassword(e.target.value)
               }
             placeholder="Create Password" />
-            <input type="password" 
+            <input type="Text" 
              required
-             value={password}
-             onChange={(e)=>
-            {
-            }}
-             placeholder="Confirm Password" />
+             value={member}
+             onChange={(e)=>setMember(e.target.value)}
+             placeholder="Write: M=mess, S=student" />
             <input type="submit"
             onClick={handleSignup} name="" value="Sign Up" />
             <p class="signup">

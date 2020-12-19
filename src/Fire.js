@@ -1,4 +1,3 @@
-import { configure } from '@testing-library/react';
 import firebase from 'firebase';
 
 const firebaseConfig = {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import { v4 as uuidv4 } from 'uuid';
 
