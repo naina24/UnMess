@@ -11,7 +11,7 @@ import { createBrowserHistory } from "history";
 
 function Home() {
   const history = createBrowserHistory();
-
+   
   const [user,setUser]=useState('');
   const [email,setEmail]=useState('');
   const [password,setPassword]=useState('');
@@ -83,7 +83,13 @@ function Home() {
             break;
         }
       });
+
+      if(member=='M')
       history.push("/Member");
+      else if(member=='S')
+      history.push("/Student");
+      else
+      history.push("/");
     }
     else
     {

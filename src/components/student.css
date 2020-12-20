@@ -1,5 +1,6 @@
 .grid-container{
     display:grid;
+    margin:50px;
     grid-template: "header" "main";
     grid-template-rows: 100px;
     height:100%;
@@ -12,6 +13,7 @@
     color:rgb(0, 0, 0);
     display:flex;
     padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 15px;
     align-items: center;
 }
@@ -19,13 +21,14 @@
     grid-area: main;
 }
 
-.menu:link, .menu:visited {
+.menu {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    border-radius: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   

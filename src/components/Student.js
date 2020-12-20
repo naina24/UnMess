@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './student.css'
 
 function Student(){
@@ -11,17 +12,26 @@ function Student(){
                 <div className="content">
                     <div className="items">
                         <div className="items-name">Breakfast</div>
-                        <a href="#breakfast" className="menu">Menu</a>
+                        <Link to="/Breakfast">
+                        <div className="menu">Menu</div>
+                        </Link>
+                        
                     </div>
 
                     <div className="items">
                         <div className="items-name">Lunch</div>
-                        <a href="#lunch" className="menu">Menu</a>
+                        <Link to="/Lunch">
+                        <div className="menu">Menu</div>
+                        </Link>
+                       
                     </div>
 
                     <div className="items">
                         <div className="items-name">Dinner</div>
-                        <a href="#dinner" className="menu">Menu</a>
+                        <Link to="/Dinner">
+                        <div className="menu">Menu</div>
+                        </Link>
+                       
                     </div>
                 </div>
             </main>

@@ -7,13 +7,13 @@ import { v4 as uuidv4 } from 'uuid';
 function set(e)
 {
 
-localStorage.setItem("itemsN", e);
+localStorage.setItem("itemsDi", e);
 
   
 }
-var elp=[];
+var elp2=[];
 
-class MessMenu extends Component {
+class MessMenu2 extends Component {
   state = {
     items: [],
     id: uuidv4(),
@@ -33,8 +33,8 @@ class MessMenu extends Component {
       id: this.state.id,
       title: this.state.item
     };
-    elp.push(newItem.title);   
-    set(elp);
+    elp2.push(newItem.title);   
+    set(elp2);
     const updatedItems = [...this.state.items, newItem];
   
  
@@ -100,4 +100,4 @@ class MessMenu extends Component {
   }
 }
 
-export default MessMenu;
+export default MessMenu2;

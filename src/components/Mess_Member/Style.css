@@ -1,48 +1,57 @@
 .food{
-    font-size: 3rem;
-    color: rgb(241, 164, 75);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    width:100px;
   }
+  .headerfood{
+    margin-bottom: 50px;
+  }
+
   .welcome{
-    background-color: azure;
-    margin: 1.5rem;
-    padding: 2rem;
-    justify-content: center;
-    font-size: 3rem;
-    color: rgb(196, 199, 35);
+    background-color:#f8dd30;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    grid-area: header;
+    font-size: 2.5rem;
+    display:flex;
+    padding:20px;
+    color:black;
   }
   
-  .row{
+  .rowblock{
     display: flex;
+    padding:20px;
+    background-color:  #f8dd30;
+    margin-top:0px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 5px;
+    border-radius: 0.5rem;
     justify-content: space-between;;
   }
-  .col-1{
-    flex: 1;
-  }
-  .col-2{
-    flex: 2;
-  }
-  .block{
-    background-color: #e0e0e0;
-    padding: 2rem;
-    margin: 1.5rem;
-    border-radius: 0.5rem;
-  }
   
-  .footer{
-    background-color:  azure;
-    border-radius: 1rem;
-    margin: 1.5rem;
-    padding: 2rem;
+ 
+  .btn-food{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
     text-align: center;
-    color: rgb(40, 167, 68);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
-  button{
-    font-size: 1.5rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    padding: 0.1rem;
-    border: 0.3rem #404040 solid;
-    background-color: #f0c040;
-    width: 30%;
-    cursor: pointer;
+
+  .btn-food-result{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-right: 100%;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }

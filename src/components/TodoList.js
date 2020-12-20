@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import TodoItem from "./TodoItem";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 export default class TodoList extends Component {
+  
   render() {
     const { items, clearList, handleDelete, handleEdit } = this.props;
     return (
@@ -17,7 +19,9 @@ export default class TodoList extends Component {
               handleEdit={() => handleEdit(item.id)}
             />
           );
-        })}
+        })
+      }
+        
 
         <button
           type="button"

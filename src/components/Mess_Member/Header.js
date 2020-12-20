@@ -6,27 +6,36 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     
-    <header>
-      <div className="row block">
+    <div className="headerfood">
+      <div className="rowblock">
       <h1 className="food">Breakfast</h1>
-      <Link to="/MessMenu">
-      <button>Add Item</button>
+      <Link to="/ResultsB">
+      <button className="btn-food-result">See Result</button>
+      </Link>
+      <Link to="/MessMenu1">
+      <button className="btn-food">Add Item</button>
       </Link>
       </div>
-      <div className="block row">
+      <div className="rowblock">
     <h1 className="food">Lunch</h1>
+    <Link to="/ResultsL">
+      <button className="btn-food-result">See Result</button>
+      </Link>
     <Link to="/MessMenu">
-      <button>Add Item</button>
+      <button className="btn-food">Add Item</button>
       </Link>
   </div>
-  <div className="row block">  
+  <div className="rowblock">  
       <h1 className="food">Dinner</h1>
-      <Link to="/MessMenu">
-      <button>Add Item</button>
+      <Link to="/ResultsD">
+      <button className="btn-food-result">See Result</button>
+      </Link>
+      <Link to="/MessMenu2">
+      <button className="btn-food">Add Item</button>
       </Link>
       
     </div>
-    </header>
+    </div>
     
 
   );
