@@ -2,40 +2,65 @@
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
-    width:100px;
+   padding: 20px 20px 20px 20px;
+   border-radius: 10px;
+    background-color: rgb(181, 240, 72);
   }
-  .headerfood{
-    margin-bottom: 50px;
+
+  .food:hover{
+    background-color: rgb(190, 238, 15);
+  }
+ 
+
+  .member{
+    background:#d9df87;
+    padding-top:20px;
+    padding-bottom: 50px;
+    
+  }
+
+  button{
+    float: initial;
+  align-items: centre;
   }
 
   .welcome{
-    background-color:#f8dd30;
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top:50px;
     margin-left: 70px;
     margin-right: 70px;
     margin-bottom: 20px;
     grid-area: header;
     font-size: 2.5rem;
-    display:flex;
     padding:20px;
     color:black;
   }
-  
+
+  .column{
+    float: left;
+    width: 33.33%;
+    
+    padding: 20px;
+    background-color: rgb(181, 240, 72);
+    
+    
+  }
   .rowblock{
-    display: flex;
-    padding:20px;
-    background-color:  #f8dd30;
+    background-color:  #c3d613;
     margin-top:0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 20px;
     margin-left: 70px;
     margin-right: 70px;
-    margin-bottom: 5px;
-    border-radius: 0.5rem;
-    justify-content: space-between;;
+    margin-bottom: 10px;
+    border-radius: 10px;
   }
   
+  
  
-  .btn-food{
+  /* .btn-food{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 14px 25px;
@@ -44,14 +69,15 @@
     border-radius: 5px;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+  } */
 
   .btn-food-result{
-    background-color: #ffffff;
+    background-color: rgb(181, 240, 72);
     color: rgb(0, 0, 0);
-    padding: 5px 5px;
+    padding: 20px 20px;
     border-radius: 5px;
-    margin-right: 100%;
+    margin: 2% 40%;
     font-size: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
   }

@@ -5,7 +5,7 @@ import Head from "./Head";
 
 function Member(){
     return(
-        <div>
+        <div className="member">
             <Head />
             <Header />
         </div>
