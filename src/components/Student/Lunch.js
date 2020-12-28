@@ -2,6 +2,8 @@ import React from 'react'
 import TodoItem from '../TodoItem'
 import "bootstrap/dist/css/bootstrap.min.css";
 import TodoItem1 from '../Todoitem1';
+import './index.css';
+
 var itemsL;
 
 function Lunch(){
@@ -13,12 +15,17 @@ function Lunch(){
    else
       itemsLa=["None"];
     return(
-        <div className="grid-container">
-            <header className="header">
-                <h1>Lunch Menu</h1>
-                <h4>Download Menu</h4>
-            </header>
-            <div>
+      <div className="container1">
+      <header1 className="header1">
+       <h1>Breakfast Menu</h1>
+      </header1>
+       <main>
+        <div className="row">
+          <div className="column">
+            <div className="box1">
+                <div class="content">
+                <div className="title">Add-On</div>
+                <div>
             {itemsLa.map(item => {
           return (
             <TodoItem1
@@ -28,7 +35,34 @@ function Lunch(){
         })
       }
            </div>
+                </div>
+            </div>
+          </div>
+          <div className="column">
+          <div className="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                <div>
+            {itemsLa.map(item => {
+          return (
+            <TodoItem1
+              title={item}  
+            />
+          );
+        })
+      }
+           </div>
+                </div>
+            </div>
+      </div>
         </div>
+        
+    </main>
+  </div>
+   
     );
 }
 
