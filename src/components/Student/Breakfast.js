@@ -1,6 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import TodoItem1 from '../Todoitem1';
+import './Breakfast.css';
 
 function Breakfast()
 {
@@ -16,17 +17,24 @@ function Breakfast()
                <h1>Breakfast Menu</h1>
                <h4>Download Menu</h4>
            </header>
-           <div>
+          
+           <div class="box">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="content">
            {itemsBa.map(item => {
          return (
            <TodoItem1
              title={item}  
+                 
            />
          );
-       })
+       }) 
      }
+     </div></div>
           </div>
-       </div>
    );
 }
 
