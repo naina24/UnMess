@@ -196,7 +196,7 @@
     background-size: 400% 400%;
     position: relative;
     padding:10px;
-    animation: animate 7.5s ease-in-out infinite;
+    animation: animated 7.5s ease-in-out infinite;
     justify-content: center;
     align-items: center;
   }
@@ -231,7 +231,7 @@
     border-radius: 0px 0px 5px 5px;
   }
   
-  @keyframes animate{
+  @keyframes animated{
     0%{
       background-position: 0 50%;
     }
