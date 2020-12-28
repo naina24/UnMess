@@ -36,12 +36,12 @@
     color:black;
   }
 
-  .column{
+  .column-c{
     float: left;
     width: 33.33%;
     
     padding: 20px;
-    background-color: rgb(181, 240, 72);
+    background:#d9df87;
     
     
   }
